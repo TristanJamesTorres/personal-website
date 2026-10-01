@@ -1,0 +1,169 @@
+/* Gallery and artwork cards */
+.gallery-intro .page-title {
+  font-size: clamp(3.6rem, 9vw, 7.3rem);
+}
+.gallery-section {
+  padding-block: 2rem clamp(4rem, 8vw, 7rem);
+}
+.gallery-topline {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.3rem;
+  color: var(--muted);
+  font-size: .7rem;
+}
+.gallery-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin-bottom: 1.6rem;
+}
+.gallery-tabs a {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  gap: .45rem;
+  border: 1px solid var(--line);
+  border-radius: var(--control-radius);
+  padding: .45rem .9rem;
+  color: var(--muted);
+  font-size: .69rem;
+  transition: color .2s, background .2s, border-color .2s;
+}
+.gallery-tabs a span {
+  color: inherit;
+  opacity: .68;
+  font-size: .59rem;
+}
+.gallery-tabs a:hover, .gallery-tabs a.is-active {
+  border-color: var(--accent);
+  color: var(--accent-contrast);
+  background: var(--accent);
+}
+.artwork-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
+  gap: 1.2rem;
+}
+.artwork-card {
+  display: block;
+  min-width: 0;
+}
+.artwork-card:nth-child(3n + 2) {
+  margin-top: 2rem;
+}
+.artwork-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--surface-soft);
+}
+.artwork-image img {
+  width: 100%;
+  aspect-ratio: 4 / 4.8;
+  object-fit: cover;
+  transition: transform .55s var(--ease), filter .3s;
+}
+.artwork-card:hover .artwork-image img {
+  filter: brightness(.89);
+  transform: scale(1.035);
+}
+.artwork-zoom {
+  position: absolute;
+  right: .8rem;
+  bottom: .8rem;
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  border: 1px solid rgba(255,255,255,.6);
+  border-radius: var(--control-radius);
+  color: var(--cream);
+  background: rgba(33,30,36,.45);
+  opacity: 0;
+  transform: translateY(5px);
+  transition: opacity .2s, transform .2s;
+}
+.artwork-card:hover .artwork-zoom, .artwork-card:focus-visible .artwork-zoom {
+  opacity: 1;
+  transform: translateY(0);
+}
+.artwork-caption {
+  display: flex;
+  justify-content: space-between;
+  gap: .6rem;
+  padding: .65rem .1rem 0;
+  color: var(--muted);
+  font-size: .63rem;
+}
+.artwork-caption > :first-child {
+  color: var(--text);
+  font-weight: 500;
+}
+.empty-state {
+  display: grid;
+  min-height: 300px;
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+}
+.empty-state > i {
+  color: var(--accent);
+  font-size: 1.3rem;
+}
+.empty-state h2 {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+.empty-state p {
+  margin: .3rem 0 1.2rem;
+  color: var(--muted);
+  font-size: .8rem;
+}
+.lightbox {
+  width: min(92vw, 1100px);
+  max-width: none;
+  max-height: 92dvh;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1rem;
+  color: var(--text);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.lightbox::backdrop {
+  background: rgba(17, 14, 20, .84);
+  backdrop-filter: blur(5px);
+}
+.lightbox-toolbar, .lightbox-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.lightbox-title {
+  font-size: .75rem;
+  font-weight: 600;
+}
+.lightbox-stage {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) 44px;
+  align-items: center;
+  justify-items: center;
+  gap: .75rem;
+  padding-block: .8rem;
+}
+.lightbox-image {
+  width: auto;
+  max-width: 100%;
+  height: min(70dvh, 760px);
+  border-radius: 4px;
+  object-fit: contain;
+}
+.lightbox-caption {
+  color: var(--muted);
+  font-size: .67rem;
+}

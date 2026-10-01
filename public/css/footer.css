@@ -1,0 +1,47 @@
+/* Footer */
+.site-footer {
+  padding-block: clamp(3.5rem, 7vw, 6rem) 1.4rem;
+  color: var(--footer-text);
+  background: var(--footer-bg);
+}
+.footer-main {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2rem;
+  border-bottom: 1px solid rgba(247, 243, 233, .22);
+  padding-bottom: clamp(2rem, 5vw, 4rem);
+}
+.footer-main .eyebrow {
+  color: var(--yellow);
+}
+.footer-main h2 {
+  margin-top: .6rem;
+  font-size: clamp(2.8rem, 7vw, 6rem);
+  font-weight: 700;
+  letter-spacing: -.08em;
+  line-height: .98;
+}
+.footer-main h2 em {
+  color: var(--yellow);
+}
+.footer-main .button {
+  flex: 0 0 auto;
+}
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1rem;
+  color: color-mix(in srgb, var(--footer-text) 72%, transparent);
+  font-size: .62rem;
+}
+.back-to-top {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+}
+.back-to-top:hover {
+  color: var(--yellow);
+}

@@ -1,0 +1,137 @@
+/* Interior page introductions */
+.page-intro-section {
+  position: relative;
+  overflow: hidden;
+  padding-block: clamp(4rem, 9vw, 8rem) clamp(3.5rem, 7vw, 6rem);
+  background: var(--surface-soft);
+}
+.page-intro-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1.2fr .8fr;
+  align-items: end;
+  gap: 3rem;
+}
+.page-title {
+  margin-top: .8rem;
+  font-size: clamp(3.3rem, 8vw, 7rem);
+  font-weight: 700;
+  letter-spacing: -.085em;
+  line-height: .98;
+}
+.page-title em {
+  color: var(--accent);
+}
+.page-intro-grid > p {
+  max-width: 43ch;
+  margin-bottom: .3rem;
+  color: var(--muted);
+  font-size: .95rem;
+}
+/* About */
+.about-section {
+  padding-top: clamp(3.5rem, 7vw, 6rem);
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: .78fr 1.22fr;
+  align-items: start;
+  gap: clamp(2rem, 7vw, 7rem);
+}
+.about-portrait {
+  position: sticky;
+  top: 115px;
+}
+.about-portrait img {
+  width: 100%;
+  max-height: 590px;
+  aspect-ratio: 4 / 5;
+  border-radius: 46% 46% var(--radius) var(--radius);
+  object-fit: cover;
+}
+.portrait-caption {
+  display: block;
+  margin-top: .7rem;
+  color: var(--muted);
+  font-size: .67rem;
+}
+.about-story > p {
+  margin-bottom: 1.1rem;
+  color: var(--muted);
+  font-size: .89rem;
+}
+.about-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.fact-block {
+  border-top: 1px solid var(--line);
+  padding-top: .9rem;
+}
+.fact-block .eyebrow {
+  font-size: .59rem;
+}
+.fact-block > p {
+  margin-top: .6rem;
+  font-size: .78rem;
+  font-weight: 500;
+}
+.tool-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  margin-top: .65rem;
+}
+.tool-list li {
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  padding: .32rem .6rem;
+  color: var(--muted);
+  font-size: .62rem;
+}
+.interests-section {
+  padding-block: clamp(4rem, 8vw, 7rem);
+  background: var(--surface-soft);
+}
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .75rem;
+}
+.interest-card {
+  min-height: 135px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.1rem;
+  background: var(--surface);
+  transition: transform .2s, border-color .2s;
+}
+.interest-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-3px);
+}
+.interest-card > i {
+  color: var(--accent);
+  font-size: 1.1rem;
+}
+.interest-card h3 {
+  margin-top: 1.3rem;
+  font-size: .78rem;
+  font-weight: 600;
+}
+.about-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  border-top: 1px solid var(--line);
+  padding-top: 1.3rem;
+}
+.about-cta p {
+  font-size: .9rem;
+  font-weight: 500;
+}
