@@ -2,7 +2,7 @@
 
 ## Project
 
-Laravel 12 personal portfolio for Tristan James C. Torres, a self-taught artist, web designer, and Information Technology student. Pages: Home, About, Gallery, and Contact.
+Laravel 12 personal portfolio for Tristan James Torres, a self-taught artist, web designer, and Information Technology student. Pages: Home, About, Gallery, and Contact.
 
 ## MVC and content
 

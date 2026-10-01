@@ -1,7 +1,7 @@
 
 
 <?php $__env->startSection('title', 'Contact'); ?>
-<?php $__env->startSection('description', 'Get in touch with Tristan James C. Torres about art, web design, or a creative collaboration.'); ?>
+<?php $__env->startSection('description', 'Get in touch with Tristan James Torres about art, web design, or a creative collaboration.'); ?>
 
 <?php $__env->startSection('content'); ?>
     <section class="page-intro-section contact-intro">

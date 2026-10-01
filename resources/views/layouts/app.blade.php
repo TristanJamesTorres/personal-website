@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="theme-color" content="#f7f3e9">
-    <title>@yield('title', $siteName ?? 'Tristan James C. Torres') — {{ $siteTagline ?? 'Artist & Web Designer' }}</title>
-    <meta name="description" content="@yield('description', 'The art, ideas, and digital work of Tristan James C. Torres — artist, student, and web designer from San Pablo City, Laguna.')">
+    <title>@yield('title', $siteName ?? 'Tristan James Torres') — {{ $siteTagline ?? 'Artist & Web Designer' }}</title>
+    <meta name="description" content="@yield('description', 'The art, ideas, and digital work of Tristan James Torres — artist, student, and web designer from San Pablo City, Laguna.')">
 
     <script>
         (function () {

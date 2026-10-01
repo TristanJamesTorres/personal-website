@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Gallery')
-@section('description', 'Explore 104 traditional-art pieces, digital illustrations, and outfit photographs by Tristan James C. Torres.')
+@section('description', 'Explore 104 traditional-art pieces, digital illustrations, and outfit photographs by Tristan James Torres.')
 
 @section('content')
     <section class="page-intro-section gallery-intro">

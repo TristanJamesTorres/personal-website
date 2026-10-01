@@ -1,7 +1,7 @@
 
 
 <?php $__env->startSection('title', 'Gallery'); ?>
-<?php $__env->startSection('description', 'Explore 104 traditional-art pieces, digital illustrations, and outfit photographs by Tristan James C. Torres.'); ?>
+<?php $__env->startSection('description', 'Explore 104 traditional-art pieces, digital illustrations, and outfit photographs by Tristan James Torres.'); ?>
 
 <?php $__env->startSection('content'); ?>
     <section class="page-intro-section gallery-intro">

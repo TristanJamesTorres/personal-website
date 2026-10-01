@@ -7,7 +7,7 @@
 
 <header class="site-header">
     <div class="wrap header-inner">
-        <a href="<?php echo e(route('home')); ?>" class="brand" aria-label="<?php echo e($siteName ?? 'Tristan James C. Torres'); ?> — Home">
+        <a href="<?php echo e(route('home')); ?>" class="brand" aria-label="<?php echo e($siteName ?? 'Tristan James Torres'); ?> — Home">
             <span class="brand-mark" aria-hidden="true"></span>
             <span>Tristan<small>Artist · Designer · Student</small></span>
         </a>

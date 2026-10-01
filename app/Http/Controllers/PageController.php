@@ -12,7 +12,7 @@ class PageController extends Controller
     private function profile(): array
     {
         return [
-            'name' => 'Tristan James C. Torres',
+            'name' => 'Tristan James Torres',
             'displayName' => 'Tristan James Torres',
             'firstName' => 'Tristan',
             'initials' => 'TJ',
@@ -81,7 +81,7 @@ class PageController extends Controller
                     'categoryLabel' => $category['label'],
                     'number' => $formattedNumber,
                     'title' => $category['altLabel'] . ' ' . $formattedNumber,
-                    'alt' => $category['altLabel'] . ' ' . $formattedNumber . ' by Tristan James C. Torres',
+                    'alt' => $category['altLabel'] . ' ' . $formattedNumber . ' by Tristan James Torres',
                     'image' => 'images/' . $category['directory'] . '/' . $category['prefix'] . '-' . $formattedNumber . '.jpg',
                 ];
             }

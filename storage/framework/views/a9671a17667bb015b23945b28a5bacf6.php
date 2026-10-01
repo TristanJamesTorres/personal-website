@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="theme-color" content="#f7f3e9">
-    <title><?php echo $__env->yieldContent('title', $siteName ?? 'Tristan James C. Torres'); ?> — <?php echo e($siteTagline ?? 'Artist & Web Designer'); ?></title>
-    <meta name="description" content="<?php echo $__env->yieldContent('description', 'The art, ideas, and digital work of Tristan James C. Torres — artist, student, and web designer from San Pablo City, Laguna.'); ?>">
+    <title><?php echo $__env->yieldContent('title', $siteName ?? 'Tristan James Torres'); ?> — <?php echo e($siteTagline ?? 'Artist & Web Designer'); ?></title>
+    <meta name="description" content="<?php echo $__env->yieldContent('description', 'The art, ideas, and digital work of Tristan James Torres — artist, student, and web designer from San Pablo City, Laguna.'); ?>">
 
     <script>
         (function () {

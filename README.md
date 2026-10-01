@@ -1,6 +1,6 @@
-# Tristan James C. Torres — Personal Portfolio
+# Tristan James Torres — Personal Portfolio
 
-A responsive, multi-page Laravel MVC portfolio for Tristan James C. Torres, based on the supplied laboratory-exercise website and its original photography/artwork.
+A responsive, multi-page Laravel MVC portfolio for Tristan James Torres, based on the supplied laboratory-exercise website and its original photography/artwork.
 
 **Pages:** Home · About · Gallery · Contact  
 **Gallery:** 63 traditional-art pieces · 24 digital-art pieces · 17 outfit photographs  

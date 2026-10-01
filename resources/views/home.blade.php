@@ -10,7 +10,7 @@
                 <h1 class="hero-wordmark-title">TRISTAN</h1>
 
                 <figure class="hero-portrait">
-                    <img src="{{ asset('images/tristan-cutout.png') }}" alt="Tristan James C. Torres, artist and web designer" fetchpriority="high">
+                    <img src="{{ asset('images/tristan-cutout.png') }}" alt="Tristan James Torres, artist and web designer" fetchpriority="high">
                 </figure>
 
                 <div class="hero-intro" data-reveal>

@@ -9,7 +9,7 @@
         </div>
 
         <div class="footer-bottom">
-            <span>© <?php echo e(date('Y')); ?> <?php echo e($siteName ?? 'Tristan James C. Torres'); ?></span>
+            <span>© <?php echo e(date('Y')); ?> <?php echo e($siteName ?? 'Tristan James Torres'); ?></span>
             <span>Made with creativity in Laguna, Philippines.</span>
             <a href="#top" class="back-to-top">Back to top <i class="fa-solid fa-arrow-up" aria-hidden="true"></i></a>
         </div>

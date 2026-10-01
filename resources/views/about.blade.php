@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'About Tristan')
-@section('description', 'Meet Tristan James C. Torres: self-taught artist, web designer, and Information Technology student from San Pablo City, Laguna.')
+@section('description', 'Meet Tristan James Torres: self-taught artist, web designer, and Information Technology student from San Pablo City, Laguna.')
 
 @section('content')
     <section class="page-intro-section">

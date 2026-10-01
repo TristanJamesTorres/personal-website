@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Contact')
-@section('description', 'Get in touch with Tristan James C. Torres about art, web design, or a creative collaboration.')
+@section('description', 'Get in touch with Tristan James Torres about art, web design, or a creative collaboration.')
 
 @section('content')
     <section class="page-intro-section contact-intro">

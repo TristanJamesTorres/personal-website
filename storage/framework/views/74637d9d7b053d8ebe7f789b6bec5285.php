@@ -1,7 +1,7 @@
 
 
 <?php $__env->startSection('title', 'About Tristan'); ?>
-<?php $__env->startSection('description', 'Meet Tristan James C. Torres: self-taught artist, web designer, and Information Technology student from San Pablo City, Laguna.'); ?>
+<?php $__env->startSection('description', 'Meet Tristan James Torres: self-taught artist, web designer, and Information Technology student from San Pablo City, Laguna.'); ?>
 
 <?php $__env->startSection('content'); ?>
     <section class="page-intro-section">
